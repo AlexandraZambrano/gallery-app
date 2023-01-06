@@ -20,6 +20,7 @@ This is a web app where the user can store their favorite images, adding a title
 ### FireBase
 ### canva
 ### Github
+### Cypress
 
 ## `Technologies:`
 
@@ -44,7 +45,7 @@ _You can easily set up this project and try it yourself!_
 > npm start
 ```
 
-And to peek the testing files, made ith Cypress:
+And to peek the testing files, made with Cypress:
 
 
 ```bash
