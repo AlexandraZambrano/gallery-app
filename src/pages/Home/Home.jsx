@@ -1,7 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {db} from '../../firebase';
 import { Grid, Container } from 'semantic-ui-react';
-import { useNavigate } from 'react-router-dom';
 import { onSnapshot, collection, doc, deleteDoc } from 'firebase/firestore';
 import ModalComponent from '../../components/Modal/Modal';
 import Spinner from '../../components/Spinner/Spinner';
@@ -12,7 +11,6 @@ const Home = () => {
     const [open, setOpen] = useState(false);
     const [upload, setUpload] = useState({});
     const [loading, setLoading] = useState(false);
-    const navigate = useNavigate();
 
     useEffect(() => {
         setLoading(true);
@@ -59,7 +57,6 @@ const Home = () => {
                     <Grid.Column key={item.id}>
                         <div>
                            <div className='image-content' onClick={() => handleModal(item)}>
-                                {/* <Image src={item.img} size='medium' /> */}
                             <div className='picture-layer'>
                                 <img className='feed-images' src={item.img} alt={item.title} style={{width:'300px'}} />
                             </div>

@@ -1,23 +1,4 @@
 // Import the functions you need from the SDKs you need
-// import { initializeApp } from "firebase/app";
-// import {getFirestore} from "firebase/firestore";
-// import {getFirestorage, getStorage} from "firebase/storage";
-// // TODO: Add SDKs for Firebase products that you want to use
-// // https://firebase.google.com/docs/web/setup#available-libraries
-
-// // Your web app's Firebase configuration
-// const firebaseConfig = {
-//   apiKey: "AIzaSyAXJm0ERGDH821PtfXq7AAtKuyE5obOcII",
-//   authDomain: "galleryapp-1f77f.firebaseapp.com",
-//   projectId: "galleryapp-1f77f",
-//   storageBucket: "galleryapp-1f77f.appspot.com",
-//   messagingSenderId: "1046636754128",
-//   appId: "1:1046636754128:web:ff227acba23e6561b65ad5"
-// };
-
-
-
-// Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import {getFirestore} from "firebase/firestore";
 import {getStorage} from "firebase/storage";

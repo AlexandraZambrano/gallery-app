@@ -1,14 +1,13 @@
 import React, { useEffect, useState } from 'react'
 import {Button, Form, Grid, Loader} from 'semantic-ui-react';
 
-import {useParams, useNavigate, Navigate} from 'react-router-dom';
+import {useParams, useNavigate} from 'react-router-dom';
 
 import {storage, db} from '../../firebase';
 import { getDownloadURL, uploadBytesResumable, ref } from 'firebase/storage';
 import { addDoc, updateDoc, collection, doc, getDoc, serverTimestamp } from 'firebase/firestore';
 
 import './uploadForm.css'
-import ProgressBar from '../../components/ProgressBar/ProgressBar';
 
 const initialState = {
     title: "",
@@ -134,7 +133,7 @@ const UploadForm = () => {
                             <h2 className='upload-update-section-title'>{id ? 'Update Picture' : 'Add new picture'}</h2>
                             <Form onSubmit={handleSubmit}>
 
-                                <label className='title-input-label'>Write a title for your picture📸!</label>
+                                <label className='title-input-label'>Write a title for your picture <span role='img'>📸</span>!</label>
                                 <input 
                                 className='title-input'
                                 error={errors.title ? {content: errors.title} : null}
@@ -156,7 +155,7 @@ const UploadForm = () => {
                                 <div className='add-submit-form-section'>
                                     
                                 
-                                <label className='upload-input-label'>Upload a moment freezed in time🎈</label>
+                                <label className='upload-input-label'>Upload a moment freezed in time <span role='img'>🎈</span> </label>
 
                                 <span className='add-new-image' 
                                 id='uploadFileInput'
