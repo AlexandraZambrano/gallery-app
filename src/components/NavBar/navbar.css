@@ -1,0 +1,61 @@
+.logo{
+    width: 80px;
+}
+
+.logo-navbar-section{
+    display: flex;
+    align-items: center;
+}
+
+.add-new-btn{
+    background-color: #a379c9;
+    font-size: 20px;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.add-new-btn:hover{
+    color: #fff;
+}
+
+.camera-icon{
+    margin-right: 10px;
+}
+
+.navbar{
+    background-color: #adb9e3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px 10px 50px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .logo-navbar-section{
+        display: flex;
+        align-items: center;
+    }
+    
+    .navbar{
+        background-color: #adb9e3;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    .add-new-btn{
+        font-size: 13px;
+    }
+}
+
+
+/* .add-new-picture-btn{
+
+} */

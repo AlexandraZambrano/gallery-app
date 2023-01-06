@@ -1,0 +1,31 @@
+.image-uploaded-detail{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.modal-action-btns{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.picture-title-modal{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.close-modal-btn{
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    margin-top: 10px;
+}
+
+.close-btn-modal-div{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    font-size: 24px;
+}

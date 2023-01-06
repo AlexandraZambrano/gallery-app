@@ -1,0 +1,14 @@
+.feed{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.picture-layer{
+    cursor: pointer;
+}
+
+.picture-layer:hover{
+    opacity: 30%;
+}
