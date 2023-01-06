@@ -44,6 +44,13 @@ _You can easily set up this project and try it yourself!_
 > npm start
 ```
 
+And to peek the testing files, made ith Cypress:
+
+
+```bash
+> npx cypress open
+```
+
 **Project will start in [http://localhost:3000](http://localhost:3000)!** 🎉
 
 If you encounter problems while uploading an image, try removing your server cookies 🍪
