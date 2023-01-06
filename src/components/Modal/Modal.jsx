@@ -26,8 +26,8 @@ const ModalComponent = ({
         </div>
 
         <div className='modal-action-btns'>
-            <Button color='transparent' icon='checkmark' onClick={() => handleDelete(id)} ><FaTrash /></Button>
-            <Button color='transparent' onClick={() => navigate(`/update/${id}`)}><FaPen /></Button>
+            <Button className='delete-btn' color='transparent' icon='checkmark' onClick={() => handleDelete(id)} ><FaTrash /></Button>
+            <Button className='update-btn' color='transparent' onClick={() => navigate(`/update/${id}`)}><FaPen /></Button>
         </div>
 
         <h2 className='picture-title-modal'>{title}</h2>
