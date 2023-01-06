@@ -40,7 +40,7 @@ _You can easily set up this project and try it yourself!_
 
 ```bash
 > npm install *if this one does not work then:*
->npm install --force
+> npm install --force
 > npm start
 ```
 
