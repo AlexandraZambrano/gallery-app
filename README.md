@@ -39,7 +39,8 @@ _You can easily set up this project and try it yourself!_
 * `Second:` then run on your terminal, after opening the project
 
 ```bash
-> npm install
+> npm install *if this one does not work then:*
+>npm install --force
 > npm start
 ```
 
